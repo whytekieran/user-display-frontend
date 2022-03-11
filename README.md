@@ -1,6 +1,10 @@
 # Getting Started
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Very basic app which displays a list of users retrieved from a simple backend.
+Frontend ReactJS and Backend is NodeJS
+
+XState is used to managed state and help control simple loading/spinner logic, first time using, usually use Redux, interesting :) 
 
 ## Available Scripts
 
