@@ -9,7 +9,7 @@ function MoreUserInformation() {
 
   const fetchSelectedUser = useCallback(async () => {
     send({type: 'LOADING', value: true})
-    //Could do something here so pulling the value with xstate
+    //Could do something here so getting the value with xstate
     const selectedUserId = localStorage.getItem('selectedUserId');
     const results = await userApiClient().get("/users", {});
     const userList = results.data;

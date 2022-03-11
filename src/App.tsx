@@ -41,7 +41,6 @@ function App() {
   if(!state.context.loading){
     return (
       <Box>
-      <nav aria-label="main mailbox folders">
         <List>
         {state.context.userList.map((user: any, index) => (
           <ListItem className={classes.listItem} key={index} onClick={showMore(user.id)}>
@@ -51,7 +50,6 @@ function App() {
           </ListItem>
         ))}
         </List>
-      </nav>
       </Box>
     );
   } else {
