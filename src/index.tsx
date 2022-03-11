@@ -1,4 +1,3 @@
-import React from 'react';
 import ReactDOM from 'react-dom';
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import './index.css';
@@ -10,7 +9,7 @@ ReactDOM.render(
   <BrowserRouter>
     <Routes>
       <Route path="/" element={<App />} />
-      <Route path="/UserDisplay/MoreUserInformation/:id/" element={<MoreUserInformation />} />
+      <Route path="/UserDisplay/MoreUserInformation" element={<MoreUserInformation />} />
     </Routes>
   </BrowserRouter>,
   document.getElementById('root')
